@@ -9,10 +9,10 @@ namespace Triangle_star
             Console.WriteLine("Enter Any number");
             int num = Convert.ToInt32(Console.ReadLine());
             
-            for(int i=num; i<=num; i--)
+            for(int i=0; i<=num; i++)
             {
                
-                for(int j=1; j<=i; j++)
+                for(int j=0; j<=i; j++)
                 {
                    
                     Console.Write("*");
